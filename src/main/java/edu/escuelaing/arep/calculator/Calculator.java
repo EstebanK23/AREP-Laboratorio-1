@@ -13,13 +13,15 @@ import java.util.List;
  */
 public class Calculator {
 
-    /**
-     *
-     * @param Numbers
-     * @return
-     */
+    
     
     public Calculator(){}
+    
+    /**
+     * El metodo de Mean es el encargado de calcular la media del LinkedList
+     * @param Numbers es el LinkedList que se pasa para calular la media
+     * @return double Media del LinkedList
+     */
     public static Double Mean(List<Double> Numbers) {
         Double result = 0.0;
         for(Double x: Numbers){
@@ -29,6 +31,12 @@ public class Calculator {
         
         return result/SizeList;
     }
+    
+    /**
+     * El metodo de Deviation es el encargado de calcular la desviacion estandar del LinkedList
+     * @param Numbers es el LinkedList que se pasa para calular la desviación estandar
+     * @return double Desviacion estandar del LinkedList
+     */
     
     public static Double Deviation(List<Double> Numbers){
         Double result = 0.0;

@@ -25,6 +25,10 @@ public class LinkedList<E> implements List<E>{
     Node head = null;
     int size = 0;
     
+    /**
+    * Metodo implementado para imprimir el LinkedList
+    **/
+    
     public void print(){
         Node init = head;
         for(int i=0; i<size; i++){
@@ -38,10 +42,37 @@ public class LinkedList<E> implements List<E>{
         }
     }
     
+    /** 
+    * El metodo de removeFirst es el encargado de sacar el primer elemento del linkedList
+    * 
+    * @return E elemento eliminado del LinkedList
+    **/
+    
+    public E removeFirst(){
+        E saliente=(E) null;
+            if (tail != null) {
+            saliente = (E) head.getNode();
+            head = (Node) head.getNextNode();
+            }
+	size--;
+	return saliente; 
+    }
+    
+    /**
+    * El metodo de size es el encargado de dar el tamaño del LinkedList
+    * 
+    * @return int tamaño del LinkedList
+    **/
     @Override
     public int size() {
         return size;
     }
+    
+    /**
+    * El metodo de isEmpty es el encargado de decir si el LinkedList esta vacio o no
+    * 
+    * @return boolean  El LinkedList esta vacio o no
+    **/
 
     @Override
     public boolean isEmpty() {
@@ -92,7 +123,12 @@ public class LinkedList<E> implements List<E>{
     public <T> T[] toArray(T[] a) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+    
+    /** 
+    * El metodo de add es el encargado de agregar cada elemento al linkedList
+    * 
+    * @param e sera el elemento a agregar al LinkedList
+    **/
     @Override
     public boolean add(E e) {
         Node NewNode = new Node(e);
