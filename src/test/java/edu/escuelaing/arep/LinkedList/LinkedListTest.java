@@ -91,6 +91,7 @@ public class LinkedListTest extends TestCase {
      */
     public void testAdd_GenericType() {
         System.out.println("add");
+        System.out.println("remove");
         LinkedList instance = new LinkedList();
         instance.add(1.0);
         instance.add(2.0);
