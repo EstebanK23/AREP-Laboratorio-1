@@ -22,7 +22,7 @@ La licencia utilizada para este proyecto es GPL-3.0 la cual se encuentra especif
 
 ## Diseño
 
-[diagrama](https://user-images.githubusercontent.com/54051399/106339374-6115c380-6264-11eb-9554-b57c92737318.png)
+![diagrama](https://user-images.githubusercontent.com/54051399/106339374-6115c380-6264-11eb-9554-b57c92737318.png)
 
 ### Descripción del diseño
 
