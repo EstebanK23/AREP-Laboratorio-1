@@ -2,7 +2,7 @@
 
 # Autor: Guillermo Esteban Bernal Bonilla
 
-## Profesor: Luis Daniel Benavides Navarro AREP-2020-1
+## Profesor: Luis Daniel Benavides Navarro AREP-2021-1
 
 ## Viernes 29-Enero-2021
 
